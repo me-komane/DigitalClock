@@ -1,0 +1,42 @@
+#background{
+    background-color: hsla(0, 0%, 100%, 0.11);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 96vh;
+    width: 99%;
+    border: 4px solid rgba(0, 0, 0, 0.342);
+}
+
+#display{
+    width: 100%;
+}
+
+#clockContainer{
+    border: 4px solid rgba(0, 0, 0, 0.459);
+    background-color: rgba(255, 255, 255, 0.15);
+    backdrop-filter: blur(5px);
+    text-align: center;
+    margin: auto;
+    font-size: 4.5rem;
+    height: 13%;
+    width: 40%;
+}
+
+#dateContainer{
+    border: 4px solid rgba(0, 0, 0, 0.459);
+    background-color: rgba(255, 255, 255, 0.15);
+    backdrop-filter: blur(5px);
+    text-align: center;
+    margin: auto;
+    font-size: 4rem;
+    height: 12%;
+    width: 70%;
+}
+
+body{
+    background-image: url("bae4fb7bbcbb4ab03605da9dce8bbf31.jpg");
+    background-position: center 40%;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
